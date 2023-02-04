@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void function(char string[]);
+
+int main(){
+
+char string [25];
+    printf("digite o nome");
+scanf("%s", &string);
+
+
+function(string);
+
+return 0;
+}
+
+void function(char string[]){
+
+
+    if(string[0] == 'a'){
+        printf("seu nome não pode ser exibido.");
+    }
+    else{
+        printf("seu nome é: %s", string);
+    }
+}
