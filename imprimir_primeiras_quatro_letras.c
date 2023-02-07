@@ -6,7 +6,7 @@ char string[50];
 char string2[6];
 
 printf("digite seu nome \n");
-scanf("%s", &string);
+scanf("%s", string);
 
    int cont;
     for(cont = 0; cont < 4; cont ++){   
